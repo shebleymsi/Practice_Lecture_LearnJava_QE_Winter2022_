@@ -1,0 +1,7 @@
+Our main goal is we read the “Sample.txt” file using the Java code:
+This is our new txt file to read the file using java code:
+1. israt
+2. husna
+3. rakib
+4. babor
+5. Shebley: 03/18/2024

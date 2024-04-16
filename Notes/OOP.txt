@@ -1,0 +1,155 @@
+
+- Interview Question: 100% MR - shebley
+
+OOP: object oriented programming
+
+Class
+Object
+
+Association
+Aggregation
+Composition
+
+Abstractions
+Encapsulation
+Polymorphism  // 1. methodOverloading, 2. methodOverriding
+Inheritance
+
+
+=======================================================================================================================
+### Abstractions: Implementation Hiding
+Interface
+Abstract class
+
+Interface:
+- In an interface, you can't instantiate/declare variable and create an object.
+- The interface cannot contain concrete(with implementation) methods
+- In Interface only one specifier is used- Public.
+
+
+- A Java class can implement multiple Java Interfaces. It is necessary that the class must implement all the methods declared in the interfaces.
+- Class should override all the abstract methods declared in the interface
+- The interface allows sending a message to an object without concerning which classes it belongs.
+- Class needs to provide functionality for the methods declared in the interface.
+- All methods in an interface are implicitly public and abstract
+- An interface cannot be instantiated
+- An interface reference can point to objects of its implementing classes
+- An interface can extend from one or many interfaces. Class can extend only one class but implement any number of interfaces
+- An interface cannot implement another Interface. It has to extend another interface if needed.
+- An interface which is declared inside another interface is referred as nested interface
+- At the time of declaration, interface variable must be initialized. Otherwise, the compiler will throw an error.
+- The class cannot implement two interfaces in java that have methods with same name but different return type.
+
+# When to use Interface and Abstract Class?
+- Use an abstract class when a template needs to be defined for a group of subclasses
+- Use an interface when a role needs to be defined for other classes, regardless of the inheritance tree of these classes
+
+
+=======================================================================================================================
+### Encapsulation: Data Hiding
+
+- Encapsulation in Java is a mechanism of wrapping the data (variables) and
+    code acting on the data (methods) together as a single unit.
+- In encapsulation, the variables of a class will be hidden from other classes,
+    and can be accessed only through the methods of their current class.
+- Therefore, it is also known as data hiding.
+
+To achieve encapsulation in Java −
+    - Declare the variables of a class as private.
+    - Provide public setter and getter methods to modify and view
+        the variables values.
+
+=======================================================================================================================
+
+
+### Inheritance:
+
+Grandfather = Super(parent) class
+Father is a sub(child) class of Grandfather
+Son is a sub(child) class of Father
+
+This example provided here is a multiple inheritance example.
+
+Son -> Father -> Grandfather
+
+Son will inherit all the "public" variables and methods from
+Father and Grandfather class
+
+
+You can add more subclasses that extends from Grandfather
+class and have a "hierarchical inheritance"
+
+ex:
+
+Father, FatherTwo, FatherThree can all extend from Grandfather
+
+There are many types of inheritances in Java...
+- Single level (ex: Class B inherits from Class A)
+- Multi level (ex: Class C inherits from Class B, and Class B inherits from Class A)
+- Hierarchical level (ex: Class B and C both inherit from Class A)
+
+
+Java does NOT support multiple inheritance as it causes ambiguity
+(ex: Class C cannot inherit from both Class A and Class B)
+
+#Super Keyword:
+-super is used to refer immediate parent class instance variable
+-super is used to refer parent class method
+-super is used to refer parent class constructor
+
+
+=======================================================================================================================
+#### Polymorphism:
+
+    - Polymorphism in Java is a concept by which we can perform a single action in different ways.
+    - Polymorphism is derived from 2 Greek words: poly and morphs.
+    - The word "poly" means many and "morphs" means forms.
+        So polymorphism means many forms.
+    - It occurs when we have many classes that are related to each other by inheritance.
+
+     There are two types of polymorphism in Java:
+        1. compile-time polymorphism/ (method overloading)/ static binding/ early binding
+        2. runtime polymorphism /(method overriding)/ Dynamic binding
+
+     We can perform polymorphism in java by method overloading and method overriding.
+
+     Method Overloading:
+        - Overloading allows different methods to have same name,
+            but different signatures where signature can differ by
+            number of input parameters or type of input parameters or both.
+        - Overloading is related to compile time (or static) polymorphism.
+
+     Method Overriding:
+        - Overriding is a feature that allows a subclass or child class to provide
+            a specific implementation of a method that is already provided by one
+            of its super-classes or parent classes.
+        - When a method in a subclass has the same name, same parameters or signature
+            and same return type(or sub-type) as a method in its super-class, then
+            the method in the subclass is said to override the method in the super-class.
+        - Method overriding is one of the way by which java achieve Run Time Polymorphism.
+        - The version of a method that is executed will be determined by the object that
+            is used to invoke it. If an object of a parent class is used to invoke the \
+            method, then the version in the parent class will be executed,
+            but if an object of the subclass is used to invoke the method,
+            then the version in the child class will be executed.
+            In other words, it is the type of the object being referred to
+            (not the type of the reference variable) that determines which version
+            of an overridden method will be executed.
+        - Object is used for dynamic binding/ to call the overriding method
+
+
+=======================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+

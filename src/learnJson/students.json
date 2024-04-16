@@ -1,0 +1,47 @@
+{
+  "students": [
+    {
+      "name": "James",
+      "id": 101,
+      "address": "NY",
+      "phoneNumber": [
+        {
+          "homePhone": "768768768",
+          "cellPhone": "9968768768"
+        }
+      ]
+    },
+    {
+      "name": "Tajwar",
+      "id": 102,
+      "address": "FL",
+      "phoneNumber": "8098304925"
+    },
+    {
+      "name": "Naina",
+      "id": 103,
+      "address": "NJ",
+      "phoneNumber": "7098304923",
+      "foodHabit": [
+        [
+          {
+            "summerFoodHabit": [
+              {
+                "fruit": "watermelons",
+                "party": "bbq"
+              },
+              {
+                "dessert": "ice-cream"
+              }
+            ]
+          }
+        ],
+        [
+        ],
+        [
+        ]
+      ]
+    }
+    
+  ]
+}

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataTest/Data1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataTest/Sample.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataTest/TestData.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataTest/TestData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataTest/TestData_305.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataTest/TestData_35.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/JUnit4.13/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/JUnit4.13/junit-4.13.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/MySQL-JDBC/mysql-connector-java-8.0.28.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-anim-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-awt-util-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-bridge-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-codec-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-constants-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-css-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-dom-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-ext-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-gvt-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-i18n-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-parser-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-script-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-shared-resources-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-svg-dom-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-svggen-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-svgrasterizer-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-transcoder-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-util-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/batik-xml-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/bcpkix-jdk15on-1.70.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/bcprov-jdk15on-1.70.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/bcutil-jdk15on-1.70.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/fontbox-2.0.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/graphics2d-0.35.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/pdfbox-2.0.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/xml-apis-1.4.01.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/xml-apis-ext-1.3.04.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/xmlgraphics-commons-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/auxiliary/xmlsec-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/lib/SparseBitSet-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/lib/commons-codec-1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/lib/commons-collections4-4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/lib/commons-io-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/lib/commons-math3-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/lib/log4j-api-2.17.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/ooxml-lib/commons-compress-1.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/ooxml-lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/ooxml-lib/curvesapi-1.07.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/ooxml-lib/slf4j-api-1.7.36.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/ooxml-lib/xmlbeans-5.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/poi-5.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/poi-examples-5.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/poi-excelant-5.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/poi-javadoc-5.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/poi-ooxml-5.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/poi-ooxml-full-5.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/poi-ooxml-lite-5.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExternalLibrary/poi-bin-5.2.2/poi-scratchpad-5.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/DataStructure.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/ExceptionHandling.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/LearnJSON.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/LearnJava" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/OOP.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notes/UnitTesting.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practice_Lecture_LearnJava_QE_Winter2022_.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configProperty/Secret.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/DoingSomeMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnAccessModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnCommenting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnConcatenation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnDataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnEscapeSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnMainMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnNamingConvention.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnNestedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/LearnVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic/Tauseef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constructor/LearnConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflow/LearnControlFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflow/LearnDoWhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflow/LearnIfElseIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflow/LearnNestedIfElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflow/LearnNestedSwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflow/LearnSwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataReader/LearnDataReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/Learn2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/Learn3DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArrayWithMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/arrayList/LearnArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/arrayList/ListOfStates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnLinkListMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnListWithLinkListAndArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/map/HashMapTravers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/map/LearnListHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/map/LearnMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/queue/LearnPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/queue/LearnQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/randomNumber/LearnRandomNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnUnionIntersectionDifferenceUsingSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/sort/LearnInsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/sort/LearnSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/stack/LearnStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/databaseConnection/ConnectDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/databaseConnection/DatabaseConnectionDirectly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/databaseConnection/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/databaseConnection/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/databaseConnection/TestDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/debug/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/debug/CalculatorPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/debug/LearnDebugging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doEnum/LEVEL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/doEnum/LearnEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excelReadAndWrite/WriteToExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/LearnExceptionHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/LearnExceptionHandlingPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/garbageCollection/LearnGarbageCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/Hw_IfElseIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learnJson/demo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learnJson/students.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loop/LearnForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loop/LearnLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loop/LearnNestedForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loop/LearnNestedWhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loop/LearnWhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/LearnMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/NonReturnTypeMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/ReturnTypeMethodWithParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/method/ReturnTypeMethodWithoutParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/abstraction/AutoPilot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/abstraction/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/abstraction/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/abstraction/FlyingCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/abstraction/GeneralMotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/abstraction/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/abstraction/ModernCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/abstraction/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/abstraction/TestGM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/encapsulation/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/encapsulation/TestPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/inheritance/Daughter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/inheritance/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/inheritance/GrandFather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/inheritance/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/inheritance/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/polymorphism/methodOverloading/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/polymorphism/methodOverriding/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/polymorphism/methodOverriding/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/polymorphism/methodOverriding/CatGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/polymorphism/methodOverriding/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/polymorphism/methodOverriding/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operators/LearnArithmeticOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operators/LearnAssignmentOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operators/LearnConditionalOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operators/LearnEqualityRelationalOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operators/LearnUnaryOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/CheckAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/CheckEligibleForVote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/CheckEvenOrOddNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/CheckPalindromeWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/CheckPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/ConvertStringToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/CountWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/DesignHeartUsingNestedForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/DesignPatternUsingForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/DetermineIncreaseDecreaseOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/FindOutFrequencyOfWordFromAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/FindOutGreatestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/FindOutSumOfAllTheElementsFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/FindOutWeekDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/FrequencyOfNumberFromAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/FrequencyOfWordsFromList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/LearnCubeOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/MergeTwoArrayAndRemoveDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsAndSolutions/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsSolvingSession/DiscussInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsSolvingSession/DiscussNestedForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsSolvingSession/DiscussScanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsSolvingSession/LearnClassNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsSolvingSession/LearnHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsSolvingSession/Mobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problemsSolvingSession/NestedClassPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/LearnRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/LearnSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/TestSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/LearnString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unitTesting/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unitTesting/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unitTesting/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unitTesting/LearnUnitTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unitTesting/TestCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unitTesting/TestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unitTesting/TestSuiteRunner.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2fCc1iwDhcWUMbacFdRLi3V94cJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Java_project_jar_file/MySQL-JDBC",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.Hello" />
+      <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Hello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="" />
+      <created>1713308289767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713308289767</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
