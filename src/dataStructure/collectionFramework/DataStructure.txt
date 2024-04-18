@@ -1,0 +1,232 @@
+
+#Collection in java is a framework that provide an architecture to store and manipulate the group of objects.
+
+search
+sorting
+insertion
+manipulation
+deletion
+
+#
+Java collection means a single unit of objects.
+java collection framework provides many interfaces
+-Interface are:
+-Set
+-List
+-Queue
+-Deque
+
+Classes are:
+-ArrayList
+-Vector
+-LinkedList
+-PriorityQueue
+-HashSet
+-LinkedHashSet
+-TreeSet
+
+
+
+
+Arrays:
+
+- An array is a data structure that allows you to store multiple values of the
+same type into a single variable
+
+- The default values of numeric array elements are set to zero.
+
+- Arrays are zero indexed; an array with n elements is indexed from 0 to n-1,
+for example; 10 elements index range is from 0 to 9.
+
+- If we try to access index that is out of range, Java will give us
+an ArrayIndexOutOfBoundsException, which indicates that the index is out of range,
+in other words its out of bounds.
+
+- To access array elements we use square braces [ and ], also known as
+array access operator.
+
+
+
+
+Example of creating a new array:
+
+    int [] array = new int[5];
+
+- This array contains the elements from array[0] to array[4]
+- It has 5 elements and the index range is 0 to 4.
+- The new operator or keyword is used to create the array and initialize the
+array elements to their default values.
+- In this example, all the array elements are initialized to zero since this
+is an int array.
+- For boolean, array elements would be initialized to false.
+- For String or other objects, it would be null.
+
+    int[] myNumbers = {6, 5, 4, 3, 2, 1, 0};
+
+- We can also initialize an array inline by using array initializer block { and }.
+Values we defined need to be separated by a comma.
+- This way of initializing an array is also known as an anonymous array.
+- It has 7 elements and index range 0 to 6.
+- In this example, array elements are initialized to 6, 5, 4, 3, 2, 1 and 0.
+
+
+So let's say we create an array of size 5.
+
+    int[] myArray = new int[5];
+
+- Each element at index 0 through 4 would be set to 0.
+
+    myArray[5] = 55; // out of bounds
+
+- Accessing index out of range will cause error in other words,
+ArrayIndexOutOfBoundsException
+- We have 5 elements and index range is 0 to 4.
+
+- When looping through an array, be sure to have the index start at 0,
+since datastructure.arrays are zero indexed. Do not make the mistake of starting from
+index 1. Also be cautious of the termination.
+
+
+# 2D Array/ Multidimensional Array: simple words as array of arrays
+
+Data in 2D Array are stored in tabular form (in row major order)
+
+dataType[1st Dimension][2nd Dimension] =new dataType[size1][size2]
+
+
+
+
+
+==================
+https://www.geeksforgeeks.org/linked-list-in-java/
+
+ARRAYLIST
+The java ArrayList implements List Interface
+ArrayList always maintain insertion order of the elements
+ArrayList only stores value or element
+ArrayList can contain duplicate elements
+We can have any numbers of null elements in ArrayList
+ArrayList get() method always gives an O(1) performance
+
+ArrayList Vs Linked List
+>>Manipulation with ArrayList is slow because it internally uses an array. If any element is removed from the array, all the bits are shifted in memory.
+>>Manipulation with LinkedList is faster than ArrayList because it uses a doubly linked list, so no bit shifting is required in memory.
+
+>> An ArrayList class can act as a list only because it implements List only.
+>> LinkedList class can act as a list and queue both because it implements List and Deque interfaces.
+
+>> ArrayList is better for storing and accessing data.
+>> LinkedList is better for manipulating data.
+
+
+
+#Map:
+Few characteristics of the Map Interface are:
+
+A Map cannot contain duplicate keys and each key can map to at most one value.
+Some implementations allow null key and null value like the HashMap and LinkedHashMap,
+but some do not like the TreeMap.
+The order of a map depends on specific implementations,
+e.g TreeMap and LinkedHashMap have predictable order, while HashMap does not.
+There are two interfaces for implementing Map in java: Map and SortedMap,
+and three classes: HashMap, TreeMap and LinkedHashMap.
+
+
+
+HASHMAP
+The java HashMap is implements Map interface
+HashMap does not maintain the insertion order
+HashMap stores key and value pairs
+HashMap does not contain duplicate keys but contain duplicate values.
+We can have only one null key and any number of null values in HashMap
+HashMap get()method can be O(1) in the best case and O(n) in the worst case
+
+#Wrapper Classes in Java
+A Wrapper class is a class whose object wraps or contains a primitive data types.
+When we create an object to a wrapper class, it contains a field and in this field, we can store a primitive data types.
+In other words, we can wrap a primitive value into a wrapper class object.
+
+Need of Wrapper Classes
+
+They convert primitive data types into objects. Objects are needed if we wish to modify the arguments passed into a method (because primitive types are passed by value).
+The classes in java.util package handles only objects and hence wrapper classes help in this case also.
+Data structures in the Collection framework, such as ArrayList and Vector, store only objects (reference types) and not primitive types.
+An object is needed to support synchronization in multithreading.
+
+
+==================================================================================
+
+1. Collection Interface :
+The root interface in the collection hierarchy. A collection represents a group of objects, known as its elements.
+The JDK does not provide any direct implementations of this interface: The implementation splitted to its child interfaces and their implementation classes.
+Collection interface provides the most common general methods which are applicable for any collection object (List, Set, Queue implementations).
+2. List Interface :
+An ordered collection (also known as a sequence).
+Insertion order preserved, if user used List type implementation, user has control over the order, because the insertion order and retrieval order of an element is same.
+If List type implementations used Duplicate elements allowed to insert.
+3. Set Interface :
+Insertion order not preserved, if user used Set type implementation, user has no control over the order, because the insertion order and retrieval order of an element is not same.
+If Set type implementations used Duplicate elements not allowed to insert.
+4. SortedSet Interface :
+Child interface of Set. It is a set that holds the elements in natural sorting (Ascending) order.
+The element which we are adding to a SortedSet implementation that element should implements Comparable Interface. Because when we are adding element, it uses Comparable implementation to sort the order. ( Just remember this Interface Comparable, I will explain more in depth details about Comparator and sorting order in further tutorials).
+5. NavigableSet Interface :
+It is a set that extends SortedSet, it means it is child Interface of SortedSet.
+It provides navigational methods. For example if you want to retrieve an element that higher than or less than a given value. If you want such kind of navigation, NavigableSet provides navigational utility methods.
+6. Queue Interface :
+A collection designed for holding elements prior to processing.
+A queue supports the insert and remove operations using a FIFO (First-In-First-Out) manner.
+Queue provides prior to processing methods.
+7. Map Interface :
+An object that maps keys to values. A map cannot contain duplicate keys; each key can map to at most one value.
+Map represent each element as key value pair, and that key value pair called Entry.
+Map interface provides the most common methods that is applicable for any Map implementation type object.
+8. SortedMap Interface :
+Child interface of Map. It is a map that holds the key elements in natural sorting (Ascending) order.
+The key element which we are adding to a SortedMap implementation that element should implements Comparable Interface. Because when we are adding element, it uses Comparable implementation to sort the order. ( Just remember this Interface Comparable, I will explain more in depth details about Comparator and sorting order in further tutorials).
+9. NavigableMap Interface :
+It is a Map that extends SortedMap, it means it is child Interface of SortedMap.
+It provides navigational methods. For example if you want to retrieve a key element that higher than or less than a given key. If you want such kind of navigation, NavigableMap provides navigational utility methods.
+
+
+
+
+===========================================================================
+
+
+
+variable :
+int 32bytes
+double 64 bytes
+
+double salary=45555.666;
+
+public int [] numbers=new int[1000];    ====> 32x5000
+
+
+200
+
+ArrayList is Dynamic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -4,16 +4,13 @@ import java.util.Scanner;
 
 public class CountWord {
 
-
     public static void main(String[] args) {
 
         getCountOfTheWords();
         // getCountOfTheWordsWithScanner();
         getCountSentence();
 
-
     }
-
 
     public static void getCountOfTheWords() {
         // Scanner input = new Scanner(System.in);
@@ -28,6 +25,7 @@ public class CountWord {
 
             // && (str.charAt(i + 1) != ' ')
             // E == ' '
+
             if ((str.charAt(i) == ' ') && (str.charAt(i + 1) != ' ')) {
                 count++;
             }
@@ -35,7 +33,6 @@ public class CountWord {
         System.out.println("Number of words in String: " + count);
 
     }
-
 
     public static void getCountOfTheWordsWithScanner() { // Shebley
         Scanner input = new Scanner(System.in);

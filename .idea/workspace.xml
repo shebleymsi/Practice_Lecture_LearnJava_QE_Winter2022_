@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LearnJava" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/DataStructure.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/ExceptionHandling.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learnJson/LearnJSON.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/OOP.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unitTesting/UnitTesting.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/problemsAndSolutions/CountWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemsAndSolutions/CountWord.java" afterDir="false" />
     </list>
@@ -27,19 +33,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/LearnJava_QE_Winter2022&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/WINDOWS (C)_2024/IdeaProjects_2024/Practice_Lecture_LearnJava_QE_Winter2022_",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_" />
+      <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\exceptionHandling" />
+      <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\learnJson" />
+      <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\oop" />
+      <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\unitTesting" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CountWord">
