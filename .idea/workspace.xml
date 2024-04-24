@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LearnJava" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/DataStructure.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/ExceptionHandling.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learnJson/LearnJSON.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/OOP.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/unitTesting/UnitTesting.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemsAndSolutions/CountWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemsAndSolutions/CountWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/DataStructure.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/DataStructure.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/Learn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/Learn2DArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/Learn3DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/Learn3DArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArrayWithMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArrayWithMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/arrayList/LearnArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/arrayList/LearnArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemsAndSolutions/ConvertStringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemsAndSolutions/ConvertStringToInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,26 +33,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/WINDOWS (C)_2024/IdeaProjects_2024/Practice_Lecture_LearnJava_QE_Winter2022_",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WINDOWS (C)_2024/IdeaProjects_2024/java-programming-anm-bazlur-r-1e&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\dataStructure\collectionFramework" />
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_" />
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\exceptionHandling" />
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\learnJson" />
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\oop" />
-      <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\unitTesting" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountWord">
+  <component name="RunManager" selected="Application.Learn2DArray">
+    <configuration name="ConvertStringToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemsAndSolutions.ConvertStringToInteger" />
+      <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problemsAndSolutions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problemsAndSolutions.CountWord" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
@@ -66,12 +79,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.Hello" />
+    <configuration name="Learn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.array.Learn2DArray" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="dataStructure.collectionFramework.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.array.LearnArray" />
+      <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.collectionFramework.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearnArrayWithMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.array.LearnArrayWithMethod" />
+      <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.collectionFramework.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,8 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Learn2DArray" />
+        <item itemvalue="Application.LearnArrayWithMethod" />
+        <item itemvalue="Application.LearnArray" />
+        <item itemvalue="Application.ConvertStringToInteger" />
         <item itemvalue="Application.CountWord" />
-        <item itemvalue="Application.Hello" />
       </list>
     </recent_temporary>
   </component>

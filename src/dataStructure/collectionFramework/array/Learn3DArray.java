@@ -142,10 +142,6 @@ public class Learn3DArray {
                 }
 
 
-
-
-
-
                 },
                 {
 
@@ -172,7 +168,6 @@ public class Learn3DArray {
         };
 
 
-
         String[][][] weatherInfo1 = {
                 {
                         // 1st time
@@ -185,7 +180,7 @@ public class Learn3DArray {
                         {"Sl", "Weather Area", "GEO Location", "MaX Temperature", "Min Temperature", "Temperature Type"},
                         {"101", "Dallas,TX", "Dallas", "28", "18", "Cel"},
                         {"102", "Huston,TX", "Huston", "27", "17", "Cel"
-                }
+                        }
                 },
                 {
                         // 3rd time
@@ -200,10 +195,8 @@ public class Learn3DArray {
 
         String[][][] weatherInfo2 = {
                 {{"Sl", "Weather Area", "GEO Location", "MaX Temperature", "Min Temperature", "Temperature Type"}, {"1", "Queens,NYC", "Jamaica", "18", "10", "Cel"}, {"2", "bronx,NYC", "bronx", "17", "11", "Cel"}}, {{"Sl", "Weather Area", "GEO Location", "MaX Temperature", "Min Temperature", "Temperature Type"}, {"101", "Dallas,TX", "Dallas", "28", "18", "Cel"}, {"102", "Huston,TX", "Huston", "27", "17", "Cel"}}, {{"Sl", "Weather Area", "GEO Location", "MaX Temperature", "Min Temperature", "Temperature Type"}, {"201", "Dhaka,BD", "Dhaka", "34", "24", "Cel"}, {"202", "Chittagong", "Chittagong", "35", "25", "Cel"}
-                }
+        }
         };
-
-
 
 
         System.out.println("====> *********** For Each loop to iterate all the elements from 3D Array");
@@ -213,8 +206,10 @@ public class Learn3DArray {
 
         for (String[][] weather : weatherInfo) {
             // Convert 3D to 2D
+            // nested for-each loop
             for (String[] wea : weather) {
                 // Convert 2D to 1D
+                // nested for-each loop
                 for (String we : wea) {
                     System.out.print(we + " ");
                 }
@@ -223,7 +218,6 @@ public class Learn3DArray {
             System.out.println();
 
         }
-
 
 
     }

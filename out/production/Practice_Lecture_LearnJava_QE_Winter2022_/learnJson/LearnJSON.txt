@@ -1,0 +1,42 @@
+JSON is an open standard file format, and data interchange format,
+that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types.
+It is a very common data format, with a diverse range of applications,
+such as serving as a replacement for XML in AJAX systems.
+
+
+JSON: JavaScript Object Notation.
+
+JSON is a syntax for storing and exchanging data.
+
+JSON is text, written with JavaScript object notation.
+
+
+Why use JSON?
+Since the JSON format is text only, it can easily be sent to and from a server, and used as a data format by any programming language.
+JavaScript has a built in function to convert a string, written in JSON format, into native JavaScript objects:
+JSON.parse()
+So, if you receive data from a server, in JSON format, you can use it like any other JavaScript object.
+
+#curly braces start and close indicate it's an object. i,e, {  } object
+
+Properties name : value
+
+KEY : Value
+name: juniad
+name = "James"
+
+Why JSON is Better Than XML
+XML is much more difficult to parse than JSON.
+JSON is parsed into a ready-to-use JavaScript object.
+
+For AJAX applications, JSON is faster and easier than XML:
+
+Using XML
+
+Fetch an XML document
+Use the XML DOM to loop through the document
+Extract values and store in variables
+
+Using JSON
+Fetch a JSON string
+JSON.Parse the JSON string
