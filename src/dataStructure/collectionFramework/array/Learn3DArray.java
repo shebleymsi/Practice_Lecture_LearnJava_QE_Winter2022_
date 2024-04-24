@@ -2,6 +2,8 @@ package dataStructure.collectionFramework.array;
 
 public class Learn3DArray {
 
+    // 1st read 2D array, then 3d will be too easy [ shebley ]
+
     // 3D means 2D+1D
     // 3D Array: : Three Dimension
     // Declare 3D Array with Length:
@@ -11,12 +13,11 @@ public class Learn3DArray {
     public static void main(String[] args) {
 
         String[][] mobileInfo1 = new String[5][6];
-        System.out.println("MobileInfo1 Length " + mobileInfo1.length);
+        System.out.println("MobileInfo1 Length " + mobileInfo1.length); // Output: 5
 
 
         String[][][] mobileInfo = new String[2][3][6];
-
-        System.out.println("MobileInfo Length " + mobileInfo.length);
+        System.out.println("MobileInfo Length " + mobileInfo.length); // Output: 2
 
 
         mobileInfo[0][0][0] = "SL";
@@ -69,7 +70,7 @@ public class Learn3DArray {
 
 
         //  mobileInfo[3]   [2][5]="7700";
-        //    mobileInfo[1]   [5][5]="7700";
+        //  mobileInfo[1]   [5][5]="7700";
         //  mobileInfo[1][2][7] = "7700";
 
 

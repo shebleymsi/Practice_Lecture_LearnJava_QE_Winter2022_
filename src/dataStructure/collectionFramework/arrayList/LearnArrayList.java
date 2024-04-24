@@ -8,8 +8,10 @@ public class LearnArrayList {
     // ArrayList: Dynamic Array: No need to declare array size
 
 
+    // Declare an array --> 1 Dimension
     public int[] numbers = new int[6];
 
+    // Declare an ArrayList [ as like object creation ]
     static ArrayList<String> stAddress = new ArrayList<>();
 
     public static void main(String[] args) {

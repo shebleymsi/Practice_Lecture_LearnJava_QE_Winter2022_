@@ -58,7 +58,7 @@ public class LearnArray {
 
         System.out.println("==============To Retrieve the grapeBox value one by one ================================");
 
-         System.out.println(grapeBox[2]);
+        System.out.println(grapeBox[2]);
         System.out.println(grapeBox[3]);
         System.out.println(grapeBox[4]);
 
@@ -91,8 +91,6 @@ public class LearnArray {
         System.out.println("===============Array discussion done========================"); //v32 02.00.07
 
 
-
-
         System.out.println("===============Global Array ========================"); // v32 04.35.13
         // Single Dimensional Array
         // String[] grapeBox = {"grape1", "grape2", "grape3", "grape4", "grape5"};
@@ -115,8 +113,8 @@ public class LearnArray {
             System.out.println(in);
         }
 
-        System.out.println("***************************+++++++++++++++++"); // v32 04.35.13
-
+        System.out.println("***************************+++++++++++++++++"); // v33 00.20.02
+        // grape3 is existed or not: check
         for (String st : grapeBox) {
             if (st.equalsIgnoreCase("grape3")) {
                 System.out.println("yahoo here is grape3");

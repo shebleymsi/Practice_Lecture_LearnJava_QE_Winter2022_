@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/DataStructure.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/DataStructure.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/Learn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/Learn2DArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/Learn3DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/Learn3DArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArrayWithMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArrayWithMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/arrayList/LearnArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/arrayList/LearnArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problemsAndSolutions/ConvertStringToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemsAndSolutions/ConvertStringToInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
