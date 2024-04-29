@@ -18,7 +18,7 @@ public class Learn2DArray {
 
         // declare two Dimensional Array's value with assign
         // array is static so it's call by class name.
-        Learn2DArray.studentInfo[0][0] = "SL";
+        Learn2DArray.studentInfo[0][0] = "SL";          // r0 x c1 ==> row x column
         Learn2DArray.studentInfo[0][1] = "FirstName";
         Learn2DArray.studentInfo[0][2] = "LastName";
         Learn2DArray.studentInfo[0][3] = "Address";

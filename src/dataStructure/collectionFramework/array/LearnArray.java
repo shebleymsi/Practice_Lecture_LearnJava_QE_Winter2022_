@@ -10,15 +10,14 @@ public class LearnArray {
 
     public static void main(String[] args) {
 
-        // Variable Declare and Assigned value
+        // Variable Declare and Assigned value:
         String name = "James";
 
         // Now I want to create a variable where we want to put multiple value of same data type
-
-        // Declare an Array
+        // Declare an Array:
         String[] appleBox; // create for multiple value
 
-        String orangeBox; // single value
+        String orangeBox; // single value example
         orangeBox = "orange1";
 
         // Declare and Assign value in an Array
@@ -51,7 +50,7 @@ public class LearnArray {
         // Length= Index+1
 
 
-        System.out.println(grapeBox[3]); // To Retrieve the grapeBox value one by one
+        System.out.println(grapeBox[3]); // To Retrieve the grapeBox value one by one, by index number
 
         String stName = "Tajwar";
         System.out.println(stName);
@@ -69,7 +68,7 @@ public class LearnArray {
         // output is: grape3 grape4 grape5
         System.out.println("=========== To Retrieve all the value from an Array using For loop =====================");
 
-        for (int i = 0; i < grapeBox.length; i++) {
+        for (int i = 0; i < grapeBox.length; i++) {      //i++ ==> i = i+1, next increment/decrement
             System.out.println(grapeBox[i]);
         }
 
@@ -78,8 +77,8 @@ public class LearnArray {
 
         // Syntax: for( DataType variable_name : arrayName){sout(variable)  }
 
-        for (String st : grapeBox) {
-            System.out.println(st);
+        for (String grape : grapeBox) { // well
+            System.out.println(grape);
         }
 
         // regular example of For Each Loop
@@ -92,7 +91,7 @@ public class LearnArray {
 
 
         System.out.println("===============Global Array ========================"); // v32 04.35.13
-        // Single Dimensional Array
+        // Single Dimensional Array:
         // String[] grapeBox = {"grape1", "grape2", "grape3", "grape4", "grape5"};
 
         System.out.println(LearnArray.grapeBox[1]);
@@ -122,6 +121,8 @@ public class LearnArray {
             System.out.println(st);
         }
         System.out.println(grapeBox[2]);
+
+
     }
 
 

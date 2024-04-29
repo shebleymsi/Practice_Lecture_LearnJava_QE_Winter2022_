@@ -92,13 +92,13 @@ public class LearnArrayWithMethod {
     // create below type method onetime, then use lifetime, re-usable method
     // coz parameter is changeable. example: row: 38
     // reusable method, any integer type of array you convert String
-    public static String getAsStringFromArray(int[] arg) {
+    public static String getAsStringFromArray(int[] arg) { // print any array
         return Arrays.toString(arg);
     }
 
 
     // pass multiple parameter
-    public static String getAsStringFromArray1(int... arg) {
+    public static String getAsStringFromArray1(int... arg) { // print any array with multiple data-type
         return Arrays.toString(arg);
     }
 
@@ -109,6 +109,11 @@ public class LearnArrayWithMethod {
         return number;
     }
     //=================, part:1 done and call method in main method ====================================================
+
+
+
+    //=================================================group practice Here =============================================
+
 
 
     // Getting array value individually [v32 02.49.00]

@@ -6,7 +6,10 @@ import java.util.LinkedList;
 public class LearnLinkList {
 
     // Link list
-    // >> Manipulation with LinkedList is faster than ArrayList because it uses a doubly linked List, so no bit shifting is required in memory
+    // >> Manipulation with LinkedList is faster than ArrayList
+    // because it uses a doubly linked List, so no bit shifting is required in memory
+
+    //
     ArrayList<String> stList1 = new ArrayList<>();
 
     static LinkedList<String> foodList = new LinkedList<>();
@@ -26,7 +29,7 @@ public class LearnLinkList {
         getChildFoodList();
         //getFoodList();
         System.out.println("============== Get Customer Name List +++++++++++++++++");
-        LearnLinkList learn=new LearnLinkList();
+        LearnLinkList learn = new LearnLinkList();
         learn.getCustomerName();
         System.out.println("============== Get Price List +++++++++++++++++");
         learn.getPriceList();
@@ -51,6 +54,7 @@ public class LearnLinkList {
         }
 
     }
+
     public static void getChildFoodList() {
         LearnLinkList.foodList.add("Chocolate");
         LearnLinkList.foodList.add("Cheese");
@@ -63,7 +67,7 @@ public class LearnLinkList {
     }
 
 
-    public void getCustomerName(){
+    public void getCustomerName() {
         LearnLinkList.customerList.add("tajwar");
         LearnLinkList.customerList.add("Ahmed");
         LearnLinkList.customerList.add("Celia");
@@ -79,7 +83,7 @@ public class LearnLinkList {
     }
 
 
- public void getPriceList(){
+    public void getPriceList() {
         LearnLinkList.priceList.add(244);
         LearnLinkList.priceList.add(344);
         LearnLinkList.priceList.add(444);
@@ -93,7 +97,6 @@ public class LearnLinkList {
 
 
     }
-
 
 
 }
