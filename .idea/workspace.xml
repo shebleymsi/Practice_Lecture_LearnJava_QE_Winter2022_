@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/DataStructure.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/DataStructure.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/Learn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/Learn2DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArrayWithMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArrayWithMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/arrayList/LearnArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/arrayList/LearnArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/arrayList/ListOfStates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/arrayList/ListOfStates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnLinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnLinkListMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnLinkListMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnListWithLinkListAndArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnListWithLinkListAndArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListOfStates">
+  <component name="RunManager" selected="Application.LearnArrayList">
     <configuration name="Learn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.array.Learn2DArray" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
@@ -120,8 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListOfStates" />
         <item itemvalue="Application.LearnArrayList" />
+        <item itemvalue="Application.ListOfStates" />
         <item itemvalue="Application.LearnArrayWithMethod" />
         <item itemvalue="Application.Learn2DArray" />
         <item itemvalue="Application.LearnArray" />

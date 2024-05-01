@@ -6,25 +6,24 @@ import java.util.List;
 
 public class LearnListWithLinkListAndArrayList {
 
-    public static List<String> foodList = new LinkedList<>();
+    // 4 type of sequence(bellow), but they are make same job for us
+    // LinkedList(class) implements List(interface)
+    // ArrayList implements List
+    // LinkedList & ArrayList both implements List Interface
+    public static List<String> foodList = new LinkedList<>(); // LinkedList good for Manipulate the data
+    public static List<String> customerList = new ArrayList<>(); // ArrayList good for storing the data
 
-    public static List<String> customerList = new ArrayList<>();
-
-
-    public static LinkedList<String> bookList = new LinkedList<>();
-
-
-
-    public static ArrayList<String> birdList = new ArrayList<>();
+    public static LinkedList<String> bookList = new LinkedList<>(); // access only LinkedList Class of data
+    public static ArrayList<String> birdList = new ArrayList<>(); // access only ArrayList Class of data
 
 
     public static void main(String[] args) {
-            foodList.add("Coffee");
-            foodList.add("Coffee");
+
+        // we saw ArrayList allow duplicate value.
+        // does the LinkedList allow duplicate value? [Yes]
+        foodList.add("Coffee");
+        foodList.add("Coffee");
         System.out.println(foodList);
-
-
-
 
 
     }

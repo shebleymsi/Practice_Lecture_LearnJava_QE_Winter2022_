@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class LearnArrayList {
 
-    // ArrayList: Dynamic Array: No need to declare array size/length
+    // ArrayList: Dynamic Array: No need to declare array size/ [array --> length or string express --> length()]
 
     // Declare an array --> 1 Dimension
     public int[] numbers = new int[6];
@@ -23,7 +23,7 @@ public class LearnArrayList {
         stAddress.add("Queens3,NY");
         stAddress.add("Jamaica,NY");
 
-        // value re-add/re-assign and then print the update one
+        // value re-add/re-assign and then by default print the update value
         stAddress.add(2, "we are missing tajwar");
         // stAddress.add(5,"we are missing tajwar1");
 
@@ -49,7 +49,7 @@ public class LearnArrayList {
 
         System.out.println("************************************ Review *********************************************");
 
-        //objective: create an Arraylist, add value , retrieve value
+        // objective: create an Arraylist, add value , retrieve value
         // use for loop
         // we know add() to add value in arrrayList
         // Retrieve all value
@@ -59,15 +59,15 @@ public class LearnArrayList {
         ArrayList<String> countryList = new ArrayList<>();
 
 
-        // add all values
+        // add all values : check the bellow (shebley) print
         for (int i = 0; i < 10; i++) {  // v 33 03.12.36 if i < 100000000 it will be Stack and Heap Memory
             countryList.add("CountryName_" + i); // here, 'i' makes 0,1,2,3,4,5,...
         }
 
-        // print all elements
+        // print all elements use for loop
         System.out.println("before" + countryList);
 
-        // print all elements
+        // print all elements use for each loop
         for (String st : countryList) {
             System.out.println(st);
         }
@@ -116,28 +116,32 @@ public class LearnArrayList {
         stID.add(104);
         stID.add(103); // v 33 03.23.34 ArrayList allow us to use duplicate value
 
+        // print the value by index
         System.out.println(stID.get(2));
         System.out.println(stID.get(4));
 
         // print all the value
         System.out.println("Length/ Size : " + stID.size()); // for Arraylist length means -->  size()
 
-        // print all the value v 33 03.27.55
+        // print all the value use for loop // v33 03.27.55
         for (int i = 0; i < stID.size(); i++) {
             System.out.println(stID.get(i));
         }
 
-        // print all the value
+        // print all the value use for each loop
         for (Integer st : stID) {
             System.out.println(st);
         }
 
         System.out.println("++++++++++++++++++++++++++++ // Remove value from arraylist++++++*+++++++++++++++++++++++");
 
-        // stID.remove(1); // remove by index number
+        // remove by index number
+        stID.remove(1);
 
+        // remove by member/object
         stID.remove("103"); // remove
 
+        // print for check if remove or not
         for (Integer st : stID) { // print
             System.out.println(st);
         }
@@ -145,18 +149,21 @@ public class LearnArrayList {
 
         System.out.println("++++++++++++++++++++++++++++ // Remove value from arraylist using Object+++++++++++++++++");
 
-
+        // remove by member/object
         stAddress.remove("Jamaica,NY");
+
+        // print for check if remove or not
         for (String st : stAddress) {
             System.out.println(st);
         }
 
 
-        System.out.println("++++++++++++++++++++++++++++ // Remove value from arraylist using Remove all+++++++++++++");
+        System.out.println("+++++++++++++++++++++++++ // Remove value from arraylist using Remove all +++++++++++++");
 
-
+        // remove all
         stAddress.removeAll(stAddress);
 
+        // print after remove
         for (String st : stAddress) {
             System.out.println(st);
         }
@@ -164,21 +171,23 @@ public class LearnArrayList {
 
         System.out.println("**************** ArrayList discussion is done V33 03.36.02 ******************************");
 
-        System.out.println("*************************** (New) More practice **********************************************");
 
+        System.out.println("*************************** (New) More practice *****************************************");
+        System.out.println("********* objective: convert an array to arraylist **************************************");
+
+        // objective: convert an array to arraylist
+        // declare and assign an array use java initializer
         String[] countries = {"USA", "CANADA", "JAPAN", "UK", "ITALY"};
 
+        // declare an arrayList
+        ArrayList<String> newCountryList = new ArrayList<>();
+
+        // convert array to arrayList
         for (int i = 0; i < countries.length; i++) {
+            newCountryList.add(countries[i]);
 
-            // System.out.println(countries[1]);
-            countryList.add(countries[i]);
-
-            // countryList.add(i,countries[i]);
         }
-
-        System.out.println(countryList);
-
-
+        System.out.println(newCountryList);
     }
 
 
