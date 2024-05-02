@@ -193,19 +193,24 @@ It provides navigational methods. For example if you want to retrieve a key elem
 
 ===========================================================================
 
+→ Lecture_33
+→ if I declare a variable : double int = 45555.666;
+→ it needs space int 32bytes
+→ Public int[] numbers = new int[5000];
+⇒ 32x5000 =  [ if we have 5000 student ID ]
+→ but now we have only 200 student ID(byte), but my software capacity 5000 student ID space(byte)
+→ In this case ArayList help to use 200 student ID space(byte) though our software capacity 5000 student ID space(byte)
+→ that's the reasons ArrayList concept came, so ArrayList is Dynamic
+
+
 
 
 variable :
 int 32bytes
 double 64 bytes
-
 double salary=45555.666;
-
 public int [] numbers=new int[1000];    ====> 32x5000
-
-
 200
-
 ArrayList is Dynamic
 
 

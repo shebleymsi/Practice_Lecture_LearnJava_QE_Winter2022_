@@ -6,7 +6,7 @@ import java.util.List;
 
 public class LearnListWithLinkListAndArrayList {
 
-    // 4 type of sequence(bellow), but they are make same job for us
+    // 4 type of sequence(below), but they are make same job for us
     // LinkedList(class) implements List(interface)
     // ArrayList implements List
     // LinkedList & ArrayList both implements List Interface
