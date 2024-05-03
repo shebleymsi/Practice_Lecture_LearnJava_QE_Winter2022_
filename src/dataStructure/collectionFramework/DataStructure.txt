@@ -132,7 +132,6 @@ There are two interfaces for implementing Map in java: Map and SortedMap,
 and three classes: HashMap, TreeMap and LinkedHashMap.
 
 
-
 HASHMAP
 The java HashMap is implements Map interface
 HashMap does not maintain the insertion order
@@ -140,6 +139,10 @@ HashMap stores key and value pairs
 HashMap does not contain duplicate keys but contain duplicate values.
 We can have only one null key and any number of null values in HashMap
 HashMap get()method can be O(1) in the best case and O(n) in the worst case
+
+
+
+
 
 #Wrapper Classes in Java  v33 03.18.14
 A Wrapper class is a class whose object wraps or contains a primitive data types.

@@ -98,16 +98,16 @@ public class LearnMap {
 
         // Retrieve all the key with value using for each_loop & use EntrySet
         for (Map.Entry<String, String> entry : foodListMap.entrySet()) {    // see: 'Entry' is an interface
-
             System.out.println(entry.getKey() + " : " + entry.getValue());  // 01. ==> print key with value
             // System.out.println(entry.getValue());                           // 02. ==> print only value
             // System.out.println(entry.getKey());                             // 03. ==> print only value
 
         }
 
+
         //========================================= Map basic concept is done =======================================
         // v34 01.35.26 Map basic concept is done
-        //========================================= Map basic advanced concept ======================================
+        //========================================= Map advanced concept ============================================
         System.out.println("*************** Remove and Replace ");
 
         System.out.println(foodListMap);
@@ -119,6 +119,7 @@ public class LearnMap {
         System.out.println(foodListMap);
         System.out.println(foodListMap.containsKey("MA"));
         System.out.println(foodListMap.containsValue("Chicken1"));
+
     }
 
 
