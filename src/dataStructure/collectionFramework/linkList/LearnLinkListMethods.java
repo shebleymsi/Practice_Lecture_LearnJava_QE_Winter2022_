@@ -8,7 +8,7 @@ public class LearnLinkListMethods {
 
     public static void main(String[] args) {
 
-        List<String> foodList = new LinkedList<>(); // Modern/update code
+        List <String> foodList = new LinkedList<>(); // Modern/update code
         // Traditional old code(jdk7), but doing same job as like above
         // List<String> foodList1=new LinkedList<String>();
 
@@ -23,7 +23,7 @@ public class LearnLinkListMethods {
         System.out.println("Food List : " + foodList);
 
         // set/add/re-assign by index with data type value
-        foodList.set(1, "Grape");
+        foodList.set(1, "Grape");  // research by chatGPT please: shebley************************************
         // print value after set
         System.out.println("Food List : " + foodList);
 
@@ -56,11 +56,12 @@ public class LearnLinkListMethods {
         // foodList is empty or not
         System.out.println(foodList.isEmpty()); // false // row 52 & 53 when comment: then isEmpty() is true
 
+
         //Any list of array if we need to convert into array type
         //foodList.toArray();
         //System.out.println(foodList);
 
-        System.out.println(foodList.indexOf("Chicken fry"));
+        System.out.println(foodList.indexOf("Chicken fry")); 
         System.out.println(foodList.indexOf("Watermelon"));
 
 

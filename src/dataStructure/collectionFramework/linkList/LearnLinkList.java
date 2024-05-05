@@ -15,13 +15,13 @@ public class LearnLinkList {
     ArrayList<String> stList1 = new ArrayList<>();
 
 
-    // declare a LinkedList and then ...
+    // declare three LinkedList and then ...
     // ... >> go to LinkedList Class: press ctrl + click cursor on LinkedList
     // if we declare static, we can call by Class_name or directly in main method
     // if we declare class level & static, we can use
-    static LinkedList<String> foodList = new LinkedList<>();
-    static LinkedList<Integer> priceList = new LinkedList<>();
-    static LinkedList<String> customerList = new LinkedList<>();
+    static LinkedList<String> foodList = new LinkedList<>(); // 01
+    static LinkedList<Integer> priceList = new LinkedList<>(); //02
+    static LinkedList<String> customerList = new LinkedList<>(); //03
 
 
     static String name; // if declare a static variable, we can initialize value next time

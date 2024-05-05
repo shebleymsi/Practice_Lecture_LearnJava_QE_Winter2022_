@@ -108,17 +108,33 @@ public class LearnMap {
         //========================================= Map basic concept is done =======================================
         // v34 01.35.26 Map basic concept is done
         //========================================= Map advanced concept ============================================
-        System.out.println("*************** Remove and Replace ");
 
+
+        System.out.println(" *************** Remove and Replace : v34 01.59.37 ********************************* ");
+
+        // -------------------------------------------
         System.out.println(foodListMap);
         foodListMap.remove("CO");
-        System.out.println(foodListMap);
+        System.out.println(foodListMap); // if we will remove the key, by default value will be removed
+        //---------------------------------------------
+
+
+        //---------------------------------------------
         foodListMap.replace("BA", "Chicken");
         System.out.println(foodListMap);
+        //---------------------------------------------
+
+
+        //---------------------------------------------
         foodListMap.replace("MA", "Mango2", "Mango");
         System.out.println(foodListMap);
+        //---------------------------------------------
+
+        //---------------------------------------------
+        System.out.println("Does the 'MA' key present in HashMap?");
         System.out.println(foodListMap.containsKey("MA"));
         System.out.println(foodListMap.containsValue("Chicken1"));
+        //---------------------------------------------
 
     }
 

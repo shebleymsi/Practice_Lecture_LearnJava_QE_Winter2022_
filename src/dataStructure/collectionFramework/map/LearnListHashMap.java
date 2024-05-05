@@ -6,14 +6,14 @@ import java.util.List;
 import java.util.Map;
 
 
-public class LearnListHashMap {
+public class LearnListHashMap { // see: Learn List of HashMap
 
     // Advanced use case of map:
     // Learn List of HashMap
-    // objective is: using ArrayList stored as a value in Map
+    // objective is: using ArrayList to stored as a value in Map
 
 
-    // Declare three ArrayList:
+    // Declare three/four ArrayList:
     static List<String> stateNameOfUSA = new ArrayList<>();
     static List<String> stateNameOfCanada = new ArrayList<>();
     static List<String> stateNameOfUK = new ArrayList<>();
@@ -28,8 +28,9 @@ public class LearnListHashMap {
         getStatesNameOfUK();
         getStatesNameOfBangladesh();
 
-        // create a map, where key type is 'string' & value type is 'List<String>'
+
         // objective is above ArrayList stored as a value in Map
+        // Final objective:--> create a map, where key type is 'string' & value type is 'List<String>'
         Map<String, List<String>> stMap = new HashMap<>();
 
         // add key and value(stored as ArrayList) in Map
@@ -47,6 +48,8 @@ public class LearnListHashMap {
         // Iterate all the value from a HashMap
         for (Map.Entry<String, List<String>> entry : stMap.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
+            //System.out.println(entry.getValue());
+            //System.out.println(entry.getKey());
         }
 
     }
