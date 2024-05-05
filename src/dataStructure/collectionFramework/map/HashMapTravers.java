@@ -18,9 +18,9 @@ public class HashMapTravers {
 
 
     // create a main method 1st but don't write any code in body now
-    public static void main(String[] args) {
-        int[] numbers = {34, 55, 66, 77, 33, 56, 66, 12, 999, 33, 56, 34, 102, 34}; // 14 // declare an array with assigning value
-        getFrequencyOfNumbers(numbers); // call the getFrequencyOfNumbers method by class name
+    public static void main(String[] args) { // args ==> numbers
+        int[] numbers = {34, 55, 66, 77, 33, 56, 66, 12, 999, 33, 56, 34, 102, 34}; // given array: length 14
+        getFrequencyOfNumbers(numbers); // pass the array as a parameter
 
 
     }
@@ -34,14 +34,22 @@ public class HashMapTravers {
         // Create a HashMap to store the frequency of numbers
         HashMap<Integer, Integer> map = new HashMap<>();
 
+        // To add value in map:
         // Iterate through the array and update the frequency map [for loop]
+        // For each number in the array, the code checks if it already exists in the map.
+        // here, map.get(numbers[i], help us to get the value.
+        // If it doesn't exist (map.get(numbers[i]) returns null), it puts the number in the map with a frequency of 1.
+        // If it exists, it retrieves the current count, increments it, and puts it back in the map.
+        // ### Debug of Frequency(পুনঃপুনঃ সংঘ্টন) of number: v34 02.45.36 to 02.56.32
         for (int i = 0; i < numbers.length; i++) {
-            Integer count = map.get(numbers[i]);
-            if (map.get(numbers[i]) == null) {
-                map.put(numbers[i], 1);
+            Integer count = map.get(numbers[i]); // we didn't initialize anything or just created the map, so count/i will be null
+
+            if (map.get(numbers[i]) == null) {  // every time we get the number from given array
+                map.put(numbers[i], 1); // if the condition is true the count is 1
             } else {
-                map.put(numbers[i], ++count); // put(k, V)
+                map.put(numbers[i], ++count); // v34 02.24.00 // count= count + 1, if count = 1, then count = 1+1 = 2
             }
+
         }
 
         /*

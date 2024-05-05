@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/map/HashMapTraversMsi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice_Lecture_LearnJava_QE_Winter2022_/dataStructure/collectionFramework/DataStructure.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice_Lecture_LearnJava_QE_Winter2022_/dataStructure/collectionFramework/DataStructure.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnLinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnLinkListMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnLinkListMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnListWithLinkListAndArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/linkList/LearnListWithLinkListAndArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/map/HashMapTravers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/map/HashMapTravers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/map/LearnListHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/map/LearnListHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/map/LearnMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/map/LearnMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/queue/LearnPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/queue/LearnPriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/queue/LearnQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/queue/LearnQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/sort/LearnSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/sort/LearnSwap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/stack/LearnStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/stack/LearnStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashMapTravers">
+  <component name="RunManager" selected="Application.LearnQueue">
     <configuration name="HashMapTravers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.map.HashMapTravers" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
@@ -113,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearnRandomNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.randomNumber.LearnRandomNumber" />
+    <configuration name="LearnQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.queue.LearnQueue" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.collectionFramework.randomNumber.*" />
+          <option name="PATTERN" value="dataStructure.collectionFramework.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LearnQueue" />
         <item itemvalue="Application.HashMapTravers" />
         <item itemvalue="Application.HashMapTraversMsi" />
         <item itemvalue="Application.LearnListHashMap" />
         <item itemvalue="Application.LearnLinkListMethods" />
-        <item itemvalue="Application.LearnRandomNumber" />
       </list>
     </recent_temporary>
   </component>
