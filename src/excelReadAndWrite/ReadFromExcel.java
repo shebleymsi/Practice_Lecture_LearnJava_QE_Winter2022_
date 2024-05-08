@@ -16,16 +16,16 @@ public class ReadFromExcel {
 
     public static void main(String[] args) {
 
-      //  readExcelFile(filePath, 0);
+        //  readExcelFile(filePath, 0);
         readExcelFile(filePath, 1);
     }
 
 
     /**
      * This method will read excel file based on sheetNumber
+     *
      * @param filePath
-     * @param sheetNumber
-     * Author: Ahmed
+     * @param sheetNumber Author: Ahmed
      */
     public static void readExcelFile(String filePath, int sheetNumber) {
         Workbook workbook;

@@ -8,7 +8,7 @@ public class LearnTreeSet {
 
 
     public static void main(String[] args) {
-        TreeSet<String> mobileBrand= new TreeSet<>();
+        TreeSet<String> mobileBrand = new TreeSet<>();
         mobileBrand.add("Samsung");
         mobileBrand.add("Nokia");
         mobileBrand.add("LG");
@@ -21,30 +21,24 @@ public class LearnTreeSet {
         System.out.println(mobileBrand);
         System.out.println(mobileBrand.contains("Nokia"));
 
-        for (String st: mobileBrand) {
+        for (String st : mobileBrand) {
             System.out.println(st);
         }
 
-        System.out.println("*************************************");
+        System.out.println("************************************************************************************");
         // pollFirst() : first value will remove
-        mobileBrand.pollFirst();
-        System.out.println(mobileBrand.pollFirst());
+        mobileBrand.pollFirst(); // 1st time pool/remove --> Nokia
+        System.out.println(mobileBrand.pollFirst()); // 2nd time pool/remove --> Samsung
         System.out.println(mobileBrand);
 
 
-        System.out.println("*************************************");
+        System.out.println("************************************************************************************");
         // pollLast() : last value will remove
-       mobileBrand.pollLast();
-      System.out.println(mobileBrand);
-
-
+        mobileBrand.pollLast();
+        System.out.println(mobileBrand);
 
 
     }
-
-
-
-
 
 
 }

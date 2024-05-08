@@ -29,7 +29,7 @@ public class Demo extends Hooks {
         System.out.println("This is Display1");
     }
 
-    @Test(timeout = 500)  //@Order()
+    @Test(timeout = 500L)  //@Order()  // here, L = millisecond
     public void display4() {
         System.out.println("This is Display1");
     }

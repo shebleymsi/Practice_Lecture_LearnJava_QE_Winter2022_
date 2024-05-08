@@ -10,7 +10,7 @@ public class Hooks {
 
     @BeforeClass
     public static void kickStartTestProcess() {
-        System.out.println("********************* Test Process star ******************");
+        System.out.println("********************* Test Process start ******************");
     }
     @Before
     public void welcome() {

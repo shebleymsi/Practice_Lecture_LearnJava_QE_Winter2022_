@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/map/HashMapTravers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/map/HashMapTravers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/queue/LearnPriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/queue/LearnPriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/queue/LearnQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/queue/LearnQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/sort/LearnSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/sort/LearnSwap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/stack/LearnStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/stack/LearnStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnTreeSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnUnionIntersectionDifferenceUsingSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnUnionIntersectionDifferenceUsingSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/sort/LearnInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/sort/LearnInsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unitTesting/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unitTesting/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unitTesting/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/TestCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unitTesting/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/TestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WINDOWS (C)_2024/IdeaProjects_2024/RakibsJavaPractice&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WINDOWS (C)_2024/IdeaProjects_2024/Practice_Progmiz_Java_2024&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -57,79 +61,93 @@
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LearnQueue">
-    <configuration name="HashMapTravers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.map.HashMapTravers" />
+  <component name="RunManager" selected="JUnit.Demo.display4">
+    <configuration name="Demo.display4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.collectionFramework.map.*" />
+          <option name="PATTERN" value="unitTesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="unitTesting" />
+      <option name="MAIN_CLASS_NAME" value="unitTesting.Demo" />
+      <option name="METHOD_NAME" value="display4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapTraversMsi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.map.HashMapTraversMsi" />
+    <configuration name="TestCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.collectionFramework.map.*" />
+          <option name="PATTERN" value="unitTesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="unitTesting" />
+      <option name="MAIN_CLASS_NAME" value="unitTesting.TestCalculator" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearnLinkListMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.linkList.LearnLinkListMethods" />
+    <configuration name="TestCalculator.checkGetMulti1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.collectionFramework.linkList.*" />
+          <option name="PATTERN" value="unitTesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="unitTesting" />
+      <option name="MAIN_CLASS_NAME" value="unitTesting.TestCalculator" />
+      <option name="METHOD_NAME" value="checkGetMulti1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearnListHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.map.LearnListHashMap" />
+    <configuration name="TestCalculator.checkIsPizzaAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.collectionFramework.map.*" />
+          <option name="PATTERN" value="unitTesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="unitTesting" />
+      <option name="MAIN_CLASS_NAME" value="unitTesting.TestCalculator" />
+      <option name="METHOD_NAME" value="checkIsPizzaAvailable" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearnQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.queue.LearnQueue" />
+    <configuration name="TestCalculator.checkIsPizzaAvailable1Extra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.collectionFramework.queue.*" />
+          <option name="PATTERN" value="unitTesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="unitTesting" />
+      <option name="MAIN_CLASS_NAME" value="unitTesting.TestCalculator" />
+      <option name="METHOD_NAME" value="checkIsPizzaAvailable1Extra" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LearnQueue" />
-        <item itemvalue="Application.HashMapTravers" />
-        <item itemvalue="Application.HashMapTraversMsi" />
-        <item itemvalue="Application.LearnListHashMap" />
-        <item itemvalue="Application.LearnLinkListMethods" />
+        <item itemvalue="JUnit.Demo.display4" />
+        <item itemvalue="JUnit.TestCalculator.checkGetMulti1" />
+        <item itemvalue="JUnit.TestCalculator" />
+        <item itemvalue="JUnit.TestCalculator.checkIsPizzaAvailable1Extra" />
+        <item itemvalue="JUnit.TestCalculator.checkIsPizzaAvailable" />
       </list>
     </recent_temporary>
   </component>
