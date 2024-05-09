@@ -18,6 +18,7 @@ public class LearnRandomNumber {
         // create a reference_variable/Object of Random Class
         // press ctrl + click cursor on 'Random'. then find 'seed' definition.
         // base on seed(changeable number) it will generate diff set of numbers
+
         Random random = new Random(1); // seed: random number Generated from seed(changeable).
 
         for (int i = 0; i < stId.length; i++) {

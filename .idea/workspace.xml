@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnTreeSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnUnionIntersectionDifferenceUsingSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/set/LearnUnionIntersectionDifferenceUsingSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/sort/LearnInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/sort/LearnInsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unitTesting/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unitTesting/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unitTesting/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/TestCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unitTesting/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/randomNumber/LearnRandomNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/randomNumber/LearnRandomNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/excelReadAndWrite/WriteToExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excelReadAndWrite/WriteToExcel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
