@@ -28,8 +28,15 @@ public class WriteToExcel {
     // public static String filePath = "../LearnJava_QE_Winter2022/DataTest/TestData.xlsx";
 
 
-    public static String filePath1 = "../LearnJava_QE_Winter2022/DataTest/TestData.docx";
-    public static String filePath = "../LearnJava_QE_Winter2022/DataTest/TestData_" + randomNumberGenerate() + ".xlsx";
+    // straight forward approach to create a .docx
+    // public static String filePath = "../LearnJava_QE_Winter2022/DataTest/TestData.docx";
+
+    // my file path: Shebley
+    public static String filePath = "../Practice_Lecture_LearnJava_QE_Winter2022_/DataTest/TestData.xlsx";
+
+
+    // Crete random automated ".xlsx" file, if we use this it will everytime generated a new .xlsx file
+    // public static String filePath = "../LearnJava_QE_Winter2022/DataTest/TestData_" + randomNumberGenerate() + ".xlsx";
     // v35 05.27.13
 
     // lecture_35 done here
@@ -44,6 +51,7 @@ public class WriteToExcel {
 
 
     public static void main(String[] args) {
+
         // Create a 2D Array
         Object[][] studentInfo = {
                 {"SL", "firstName", "lastName", "Address", "PhoneNumber"},
@@ -57,11 +65,8 @@ public class WriteToExcel {
                 {"102", "Naina", "Islam", "Woodhaven,NY", "98098080"}
 
         };
-
-
+        // calling method inside the main method
         writeToExcelFile(filePath, studentInfo, "infoSheet");
-
-
     }
 
 
@@ -72,38 +77,52 @@ public class WriteToExcel {
 
     public static void writeToExcelFile(String filePath, Object[][] input, String sheetName) {
 
-        XSSFWorkbook workbook = new XSSFWorkbook();
-        XSSFSheet sheet = workbook.createSheet(sheetName);
-        int rowNumber = 0;
-        for (Object[] data : input) {
 
-            Row row = sheet.createRow(rowNumber++);
+        // create a reference of XSSFWorkbook-->Class
+        XSSFWorkbook workbook = new XSSFWorkbook();         // create an object of XSSFWorkbook
+        XSSFSheet sheet = workbook.createSheet(sheetName);  // create workbook & spreadSheet
+
+
+        int rowNumber = 0;
+
+        //  object is a parent of all class
+        // here use ==> converting 2D array to 1D Array : Object[] data : input 1.00.00
+        for (Object[] data : input) {  // Ctrl + hooving on “Object”
+
+            // create a reference of Row-->interface
+            Row row = sheet.createRow(rowNumber++); // Ctrl + hooving mouse on “Row”
+
             int columnNumber = 0;
             for (Object field : data) {
-                Cell cell = row.createCell(columnNumber++);
 
-                if (field instanceof String) {
+                // create a reference of Cell-->interface
+                Cell cell = row.createCell(columnNumber++); // Ctrl + hooving mouse on “Row”
+
+                if (field instanceof String) {         // value could be String type
                     cell.setCellValue((String) field);
-                } else if (field instanceof Integer) {
+                } else if (field instanceof Integer) { // value could be Integer type
                     cell.setCellValue((Integer) field);
-                } else if (field instanceof Double) {
+                } else if (field instanceof Double) {   // value could be Double type
                     cell.setCellValue((Double) field);
-                } else if (field instanceof Boolean) {
+                } else if (field instanceof Boolean) {  // // value could be Boolean type
                     cell.setCellValue((Boolean) field);
                 }
             }
         }
 
+
         try {
+            // Create a file and then we save the file in the location in filePath
+            // Ctrl + hooving mouse on “FileOutputStream-->Class
             FileOutputStream outputStream = new FileOutputStream(filePath);
-            workbook.write(outputStream);
+            workbook.write(outputStream);  // write in workbook
             System.out.println("Excel file is Created");
             workbook.close();
         } catch (FileNotFoundException e) {
             System.out.println("File not found Exception" + e.getMessage());
         } catch (IOException e) {
             System.out.println("File not closed and Done");
-            // throw new RuntimeException(e);
+            //throw new RuntimeException(e);
         }
 
 
