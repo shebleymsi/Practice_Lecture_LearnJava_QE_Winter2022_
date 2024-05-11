@@ -17,7 +17,9 @@ public class LearnDataReader {  // fileReader
         // String filePath="C:\\Users\\mhsha\\IdeaProjects\\LearnJava_QE_Winter2022\\DataTest\\Sample.txt";
 
         //String filePath = "DataTest/Sample.txt"; // if its not work, follow row20, write by manually
-        String filePath = "../LearnJava_QE_Winter2022/DataTest/Sample.txt";
+        //String filePath1 = "../LearnJava_QE_Winter2022/DataTest/Sample.txt";
+        String filePath = "../Practice_Lecture_LearnJava_QE_Winter2022_/DataTest/Sample.txt";
+
         // String filePath = "C:\\Users\\mhsha\\Desktop\\Newfolder2/Demo.txt";
 
 

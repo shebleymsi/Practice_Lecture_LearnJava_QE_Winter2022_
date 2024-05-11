@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataTest/TestData (2).xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataTest/Home Work - 01 Shebley.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataTest/TestData (2).xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DataTest/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataTest/TestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice_Lecture_LearnJava_QE_Winter2022_.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice_Lecture_LearnJava_QE_Winter2022_.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataReader/LearnDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataReader/LearnDataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/excelReadAndWrite/WriteToExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excelReadAndWrite/WriteToExcel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +46,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/WINDOWS (C)_2024/IdeaProjects_2024/Practice_Lecture_LearnJava_QE_Winter2022_/ExternalLibrary/commons-io-2.16.1",
+    "last_opened_file_path": "D:/WINDOWS (C)_2024/IdeaProjects_2024/Practice_Lecture_LearnJava_QE_Winter2022_/DataTest",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -52,14 +54,40 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\DataTest" />
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\ExternalLibrary" />
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\dataStructure\collectionFramework" />
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_" />
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\exceptionHandling" />
-      <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\learnJson" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WriteToExcel">
+  <component name="RunManager" selected="Application.LearnDataReader">
+    <configuration name="LearnDataReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataReader.LearnDataReader" />
+      <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataReader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadFromExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excelReadAndWrite.ReadFromExcel" />
+      <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="excelReadAndWrite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WriteToExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="excelReadAndWrite.WriteToExcel" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
@@ -89,21 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTesting" />
-      <option name="MAIN_CLASS_NAME" value="unitTesting.TestCalculator" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestCalculator.checkGetMulti1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
@@ -120,29 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCalculator.checkIsPizzaAvailable1Extra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTesting" />
-      <option name="MAIN_CLASS_NAME" value="unitTesting.TestCalculator" />
-      <option name="METHOD_NAME" value="checkIsPizzaAvailable1Extra" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LearnDataReader" />
+        <item itemvalue="Application.ReadFromExcel" />
         <item itemvalue="Application.WriteToExcel" />
         <item itemvalue="JUnit.Demo.display4" />
         <item itemvalue="JUnit.TestCalculator.checkGetMulti1" />
-        <item itemvalue="JUnit.TestCalculator" />
-        <item itemvalue="JUnit.TestCalculator.checkIsPizzaAvailable1Extra" />
       </list>
     </recent_temporary>
   </component>

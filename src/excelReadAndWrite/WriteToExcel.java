@@ -30,6 +30,8 @@ public class WriteToExcel {
 
     // straight forward approach to create a .docx
     // public static String filePath = "../LearnJava_QE_Winter2022/DataTest/TestData.docx";
+    // if we take .docx file, it will not open because its don't match code format, so it was corrupted file 01.07.14
+    // base on our extenuation it generates file
 
     // my file path: Shebley
     public static String filePath = "../Practice_Lecture_LearnJava_QE_Winter2022_/DataTest/TestData.xlsx";
@@ -71,7 +73,7 @@ public class WriteToExcel {
 
 
     // =======================================================================================================
-    // This lecture Start here, create writeToExcelFile() 1st then call it inside main method
+    // This lecture Start over here, create writeToExcelFile() 1st then call it inside main method ...
     // =======================================================================================================
 
 
@@ -98,22 +100,25 @@ public class WriteToExcel {
                 // create a reference of Cell-->interface
                 Cell cell = row.createCell(columnNumber++); // Ctrl + hooving mouse on “Row”
 
+                // check the data type
                 if (field instanceof String) {         // value could be String type
                     cell.setCellValue((String) field);
                 } else if (field instanceof Integer) { // value could be Integer type
                     cell.setCellValue((Integer) field);
                 } else if (field instanceof Double) {   // value could be Double type
                     cell.setCellValue((Double) field);
-                } else if (field instanceof Boolean) {  // // value could be Boolean type
-                    cell.setCellValue((Boolean) field);
+                } else if (field instanceof Boolean) {  // value could be Boolean type
+                    cell.setCellValue((Boolean) field); // setCellValue assign the value on particular cell
                 }
             }
         }
 
 
         try {
+            // we want to save our file
             // Create a file and then we save the file in the location in filePath
             // Ctrl + hooving mouse on “FileOutputStream-->Class
+            // FileOutputStream use for write
             FileOutputStream outputStream = new FileOutputStream(filePath);
             workbook.write(outputStream);  // write in workbook
             System.out.println("Excel file is Created");
