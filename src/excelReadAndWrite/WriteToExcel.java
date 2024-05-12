@@ -1,25 +1,26 @@
 package excelReadAndWrite;
 
+// what are the classes and interfaces you need to import to write an Excel-spreadsheet by JAVA?
 
-import dataStructure.collectionFramework.randomNumber.LearnRandomNumber;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.ss.usermodel.Cell;            //import serial: 04 must
+import org.apache.poi.ss.usermodel.Row;             //import serial: 03 must
+import org.apache.poi.xssf.usermodel.XSSFSheet;     //import serial: 02 must
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;  //import serial: 01 must
 
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.FileNotFoundException;               //import serial: 06 (if)
+import java.io.FileOutputStream;                    //import serial: 05 must
+import java.io.IOException;                         //import serial: 07 (if)
 
 import static dataStructure.collectionFramework.randomNumber.LearnRandomNumber.*;
 
 
 public class WriteToExcel {
 
-    // Path: The location where the excel file will be created
+    // Path: The location where the Excel file will be created
 
     // Absolute path: full path
     // String filePath = "C:\\Users\\mhsha\\IdeaProjects\\LearnJava_QE_Winter2022\\DataTest\\TestData.xlsx";
+    // String filePath = "D:\\WINDOWS (C)_2024\\IdeaProjects_2024\\Practice_Lecture_LearnJava_QE_Winter2022_\\DataTest\\TestData.xlsx";
 
     // note: Always better to use "/" forward-slash not back-slash
     // "\" backward slash work only local mechain or my(shebley) computer but its  not work mac/windows or other computer
@@ -30,7 +31,7 @@ public class WriteToExcel {
 
     // straight forward approach to create a .docx
     // public static String filePath = "../LearnJava_QE_Winter2022/DataTest/TestData.docx";
-    // if we take .docx file, it will not open because its don't match code format, so it was corrupted file 01.07.14
+    // if we take .docx file, it will not open because its don't match code format, so it was corrupted file // 01.07.14
     // base on our extenuation it generates file
 
     // my file path: Shebley
@@ -86,19 +87,18 @@ public class WriteToExcel {
 
 
         int rowNumber = 0;
-
         //  object is a parent of all class
         // here use ==> converting 2D array to 1D Array : Object[] data : input 1.00.00
         for (Object[] data : input) {  // Ctrl + hooving on “Object”
-
             // create a reference of Row-->interface
             Row row = sheet.createRow(rowNumber++); // Ctrl + hooving mouse on “Row”
 
+
             int columnNumber = 0;
             for (Object field : data) {
-
                 // create a reference of Cell-->interface
                 Cell cell = row.createCell(columnNumber++); // Ctrl + hooving mouse on “Row”
+
 
                 // check the data type
                 if (field instanceof String) {         // value could be String type

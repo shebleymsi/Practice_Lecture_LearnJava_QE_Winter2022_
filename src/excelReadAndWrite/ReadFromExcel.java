@@ -39,15 +39,16 @@ public class ReadFromExcel {
     // readExcelFile Method:
     public static void readExcelFile(String filePath, int sheetNumber) {
 
-        Workbook workbook; //ref variable of Workbook and it's an interface
-        FileInputStream inputStream; // FileInputStream it's a Class,
+        // We know that the data type of any Object must be his class
+        Workbook workbook;              //ref variable of Workbook and it's an interface
+        FileInputStream inputStream; // declare an object of FileInputStream  // FileInputStream it's a Class,
 
         try {
-            inputStream = new FileInputStream(filePath);
-            workbook = new XSSFWorkbook(inputStream); // XSSFWorkbook is a Class
+            inputStream = new FileInputStream(filePath); // initialize the Object of FileInputStream
+            workbook = new XSSFWorkbook(inputStream);    // XSSFWorkbook is a Class
             Sheet dataTypeSheet = workbook.getSheetAt(sheetNumber); // Sheet is an interface and getSheetAt() looking for parameter base on index number
 
-            // Iterate row
+            // Iterate row : move one row to another row
             Iterator<Row> rowIterator = dataTypeSheet.iterator();
             while (rowIterator.hasNext()) {
                 Row currentRow = rowIterator.next();

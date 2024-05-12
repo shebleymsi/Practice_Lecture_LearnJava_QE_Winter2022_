@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataTest/Home Work - 01 Shebley.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTest/TestData (2).xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataTest/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataTest/TestData.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataReader/LearnDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataReader/LearnDataReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/excelReadAndWrite/WriteToExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excelReadAndWrite/WriteToExcel.java" afterDir="false" />
     </list>
@@ -41,17 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/WINDOWS (C)_2024/IdeaProjects_2024/Practice_Lecture_LearnJava_QE_Winter2022_/DataTest",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WINDOWS (C)_2024/IdeaProjects_2024/Practice_Lecture_LearnJava_QE_Winter2022_/DataTest&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\DataTest" />
@@ -61,7 +57,7 @@
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\exceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LearnDataReader">
+  <component name="RunManager" selected="Application.ReadFromExcel">
     <configuration name="LearnDataReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataReader.LearnDataReader" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
@@ -135,9 +131,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LearnDataReader" />
         <item itemvalue="Application.ReadFromExcel" />
         <item itemvalue="Application.WriteToExcel" />
+        <item itemvalue="Application.LearnDataReader" />
         <item itemvalue="JUnit.Demo.display4" />
         <item itemvalue="JUnit.TestCalculator.checkGetMulti1" />
       </list>
