@@ -6,7 +6,15 @@ import org.junit.Test;
 
 public class TestCalculator extends Hooks {
 
-    // ============================================================================================================
+    //Objective: "Calculator.java" Class have total 18 methods, we want to unit test all of these methods,
+    //so lets we create a brand-new class "TestCalculator.java" to test the "Calculator.java" Class
+    //Here, now public class TestCalculator extends Hooks { }
+
+    //===============================================================================================================
+
+
+
+    // =======================================
     // testing without message for doSum1()
     @Test
     public void checkDoSum1() {
@@ -17,6 +25,7 @@ public class TestCalculator extends Hooks {
 
     }
 
+    // ====================================
     // Positive testing for doSum1()
     @Test
     public void checkDoSum2() {
@@ -26,6 +35,7 @@ public class TestCalculator extends Hooks {
         Assert.assertEquals("Total value does not match", expectedResult, actualResult);
     }
 
+    // ====================================
     // Negative testing for doSum1()
     @Test
     public void checkDoSum3() {
@@ -37,7 +47,7 @@ public class TestCalculator extends Hooks {
     //===============================================================================================================
     //===============================================================================================================
 
-
+    //==========================================
     // Positive testing for getMulti1()
     @Test
     public void checkGetMulti1() {
@@ -47,6 +57,7 @@ public class TestCalculator extends Hooks {
         Assert.assertEquals("Total multiply value not match", expectedResult, actualResult);
     }
 
+    //==========================================
     // Negative testing for getMulti1()
     @Test
     public void checkGetMulti2() {  // shebley
@@ -59,7 +70,7 @@ public class TestCalculator extends Hooks {
     //===============================================================================================================
     //===============================================================================================================
 
-    //**************************************************************************
+    //==========================================
     @Test
     public void checkIsPizzaAvailable1() {
         boolean actualResult = Calculator.isPizzaAvailable("Cheese", 'L', 35);
@@ -74,8 +85,8 @@ public class TestCalculator extends Hooks {
         Assert.assertFalse("Pizza is available", actualResult);
     }
 
-    //**************************************************************************
-    //**************************************************************************
+    //==========================================
+    //==========================================
     @Test
     public void checkIsPizzaAvailable3() {
         boolean expectedResult = true;
@@ -84,6 +95,7 @@ public class TestCalculator extends Hooks {
         Assert.assertEquals("Pizza is not available", expectedResult, actualResult);
 
     }
+
     @Test
     public void checkIsPizzaAvailable4() {  // shebley
         boolean expectedResult = true;
@@ -93,7 +105,7 @@ public class TestCalculator extends Hooks {
 
     }
 
-    //**************************************************************************
+    //=============================================================================================================
 
 
 }

@@ -2,6 +2,11 @@ package unitTesting;
 
 public class Calculator {
 
+
+    // Objective: in this class total 18 methods, we want to unit test all of these methods
+    // so lets we create a brand-new class "TestCalculator.java" to test the "Calculator.java" Class
+
+
     public static int doSum1(int num1, int num2) {
         int total = num1 + num2;
         System.out.println("Total value " + total);

@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Demo extends Hooks {
 
-    //==================================== main() =========================================
+    // ==================================== main() =========================================
     // we know that without main method java can not execute the code
     public static void main(String[] args) {
         System.out.println("Hello");
@@ -47,6 +47,7 @@ public class Demo extends Hooks {
     // https://youtu.be/3N7-pwSx-HA?si=eeCNwvVksTM-vm3a
 
     // ================================ commenting ======================================
+
     /**
      * This method is for displaying information
      * Author: Shebley
@@ -56,13 +57,14 @@ public class Demo extends Hooks {
     }
 
     // ================================ commenting =====================================
+
     /**
      * This method is for display purpose
      *
      * @param st Author: Shebley
      */
 
-    public void display3(String st)  {
+    public void display3(String st) {
         System.out.println("This is Display1");
     }
 

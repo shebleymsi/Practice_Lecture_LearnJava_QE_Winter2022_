@@ -12,6 +12,7 @@ public class Hooks {
     public static void kickStartTestProcess() {
         System.out.println("********************* Test Process start ******************");
     }
+
     @Before
     public void welcome() {
         System.out.println("Welcome to Test Automation");

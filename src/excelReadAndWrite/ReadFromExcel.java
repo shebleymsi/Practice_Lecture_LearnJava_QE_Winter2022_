@@ -23,11 +23,10 @@ public class ReadFromExcel {
     // Main Method:
     public static void main(String[] args) {
         //  readExcelFile(filePath, 0);
-        readExcelFile(filePath, 1); // want to read second spreadsheet is 1
+        readExcelFile(filePath, 1);
+        // want to read second spreadsheet is 1,
+        // spreadsheet is count as like index number, where stat from 0
     }
-
-
-
 
     /**
      * This method will read excel file based on sheetNumber

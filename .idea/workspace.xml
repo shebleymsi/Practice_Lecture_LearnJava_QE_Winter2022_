@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unitTesting/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unitTesting/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unitTesting/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unitTesting/LearnUnitTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/LearnUnitTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unitTesting/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/TestCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unitTesting/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unitTesting/TestSuiteRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/TestSuiteRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +63,7 @@
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\exceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadFromExcel">
+  <component name="RunManager" selected="JUnit.TestSuiteRunner.testSuiteRunner">
     <configuration name="LearnDataReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataReader.LearnDataReader" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
@@ -112,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCalculator.checkGetMulti1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuiteRunner.testSuiteRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +128,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="unitTesting" />
-      <option name="MAIN_CLASS_NAME" value="unitTesting.TestCalculator" />
-      <option name="METHOD_NAME" value="checkGetMulti1" />
+      <option name="MAIN_CLASS_NAME" value="unitTesting.TestSuiteRunner" />
+      <option name="METHOD_NAME" value="testSuiteRunner" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSuiteRunner.testSuiteRunner" />
         <item itemvalue="Application.ReadFromExcel" />
         <item itemvalue="Application.WriteToExcel" />
         <item itemvalue="Application.LearnDataReader" />
         <item itemvalue="JUnit.Demo.display4" />
-        <item itemvalue="JUnit.TestCalculator.checkGetMulti1" />
       </list>
     </recent_temporary>
   </component>
