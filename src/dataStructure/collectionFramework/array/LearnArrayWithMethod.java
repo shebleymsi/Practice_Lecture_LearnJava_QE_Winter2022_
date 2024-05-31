@@ -68,6 +68,9 @@ public class LearnArrayWithMethod {
         System.out.println("+++++++++++++++  Maximum Number +++++++++++++++++++++++");
         maximumValue();
 
+        System.out.println("+++++++++++++++  Minimum Number +++++++++++++++++++++++");
+        minimumValue();
+
     }
 
 
@@ -214,5 +217,19 @@ public class LearnArrayWithMethod {
 
     }
 
+    public static void minimumValue() {
+        int[] numbers = new int[]{130, 103, 14, 56, 700, 66, 77, 1, 88, 999, 11};
+
+        int min = numbers[0];
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (min > numbers[i]) {
+                min = numbers[i];
+            }
+            //   System.out.println("Minimum value "+max); // debug time uncomment
+        }
+        System.out.println("Minimum value " + min);
+
+    }
 
 }

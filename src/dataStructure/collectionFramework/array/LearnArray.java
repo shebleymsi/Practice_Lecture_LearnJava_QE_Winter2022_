@@ -72,7 +72,7 @@ public class LearnArray {
             System.out.println(grapeBox[i]);
         }
 
-        System.out.println("=========== To Retrieve all the value from an Array using For Each Loop ============================");
+        System.out.println("=========== To Retrieve all the value from an Array using For Each Loop ================");
 
 
         // Syntax: for( DataType variable_name : arrayName){sout(variable)  }
@@ -112,7 +112,7 @@ public class LearnArray {
             System.out.println(in);
         }
 
-        System.out.println("***************************+++++++++++++++++"); // v33 00.20.02
+        System.out.println("************************************************"); // v33 00.20.02
         // grape3 is existed or not: check
         for (String st : grapeBox) {
             if (st.equalsIgnoreCase("grape3")) {

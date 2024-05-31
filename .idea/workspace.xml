@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excelReadAndWrite/ReadFromExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unitTesting/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unitTesting/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unitTesting/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unitTesting/LearnUnitTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/LearnUnitTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unitTesting/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/TestCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unitTesting/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/TestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unitTesting/TestSuiteRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unitTesting/TestSuiteRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArrayWithMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArrayWithMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,20 @@
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\exceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSuiteRunner.testSuiteRunner">
+  <component name="RunManager" selected="Application.LearnArrayWithMethod">
+    <configuration name="LearnArrayWithMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.array.LearnArrayWithMethod" />
+      <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.collectionFramework.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LearnDataReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataReader.LearnDataReader" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
@@ -103,22 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo.display4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTesting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTesting" />
-      <option name="MAIN_CLASS_NAME" value="unitTesting.Demo" />
-      <option name="METHOD_NAME" value="display4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSuiteRunner.testSuiteRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
@@ -137,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LearnArrayWithMethod" />
         <item itemvalue="JUnit.TestSuiteRunner.testSuiteRunner" />
         <item itemvalue="Application.ReadFromExcel" />
         <item itemvalue="Application.WriteToExcel" />
         <item itemvalue="Application.LearnDataReader" />
-        <item itemvalue="JUnit.Demo.display4" />
       </list>
     </recent_temporary>
   </component>
