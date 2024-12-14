@@ -1,3 +1,5 @@
+Easy: NEXT
+
 // Exception: something is not regular outcomes
 // Five key word: try, catch,throw,throws, finally
 

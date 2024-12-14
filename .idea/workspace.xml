@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2816dd3c-8ba4-492d-9703-cfb2a5676a43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/DataStructure.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/03_DataStructure.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/ExceptionHandling.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/04_ExceptionHandling.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/LearnJSON.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/06_LearnJSON.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/LearnJava" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/01_LearnJava" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/OOP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/02_OOP.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notes/UnitTesting.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Notes/05_UnitTesting.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArrayWithMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/array/LearnArrayWithMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/collectionFramework/sort/LearnInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/collectionFramework/sort/LearnInsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemsAndSolutions/CheckAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemsAndSolutions/CheckAnagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemsAndSolutions/CheckEvenOrOddNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemsAndSolutions/CheckEvenOrOddNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemsAndSolutions/CountWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemsAndSolutions/CountWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemsAndSolutions/DesignPatternUsingForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemsAndSolutions/DesignPatternUsingForLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problemsAndSolutions/FindOutGreatestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/problemsAndSolutions/FindOutGreatestNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +43,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2fCc1iwDhcWUMbacFdRLi3V94cJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,17 +54,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WINDOWS (C)_2024/IdeaProjects_2024/Practice_Lecture_LearnJava_QE_Winter2022_/DataTest&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.CheckEligibleForVote.executor": "Run",
+    "Application.CountWord.executor": "Run",
+    "Application.DesignPatternUsingForLoop.executor": "Run",
+    "Application.FindOutFrequencyOfWordFromAString.executor": "Run",
+    "Application.FindOutGreatestNumber.executor": "Run",
+    "Application.LearnCubeOfNumber.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "shebleymsi",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/SHEBLEY/D/WINDOWS (C)_2024/IdeaProjects_2024/Practice_JAVA_QE_Team2024_msi",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\DataTest" />
@@ -57,13 +83,13 @@
       <recent name="D:\WINDOWS (C)_2024\IdeaProjects_2024\Practice_Lecture_LearnJava_QE_Winter2022_\src\exceptionHandling" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LearnArrayWithMethod">
-    <configuration name="LearnArrayWithMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.collectionFramework.array.LearnArrayWithMethod" />
+  <component name="RunManager" selected="Application.LearnCubeOfNumber">
+    <configuration name="CountWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemsAndSolutions.CountWord" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.collectionFramework.array.*" />
+          <option name="PATTERN" value="problemsAndSolutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LearnDataReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataReader.LearnDataReader" />
+    <configuration name="DesignPatternUsingForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemsAndSolutions.DesignPatternUsingForLoop" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataReader.*" />
+          <option name="PATTERN" value="problemsAndSolutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFromExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excelReadAndWrite.ReadFromExcel" />
+    <configuration name="FindOutFrequencyOfWordFromAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemsAndSolutions.FindOutFrequencyOfWordFromAString" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="excelReadAndWrite.*" />
+          <option name="PATTERN" value="problemsAndSolutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteToExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="excelReadAndWrite.WriteToExcel" />
+    <configuration name="FindOutGreatestNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemsAndSolutions.FindOutGreatestNumber" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="excelReadAndWrite.*" />
+          <option name="PATTERN" value="problemsAndSolutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,29 +136,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuiteRunner.testSuiteRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LearnCubeOfNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problemsAndSolutions.LearnCubeOfNumber" />
       <module name="Practice_Lecture_LearnJava_QE_Winter2022_" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="unitTesting.*" />
+          <option name="PATTERN" value="problemsAndSolutions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="unitTesting" />
-      <option name="MAIN_CLASS_NAME" value="unitTesting.TestSuiteRunner" />
-      <option name="METHOD_NAME" value="testSuiteRunner" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LearnArrayWithMethod" />
-        <item itemvalue="JUnit.TestSuiteRunner.testSuiteRunner" />
-        <item itemvalue="Application.ReadFromExcel" />
-        <item itemvalue="Application.WriteToExcel" />
-        <item itemvalue="Application.LearnDataReader" />
+        <item itemvalue="Application.LearnCubeOfNumber" />
+        <item itemvalue="Application.FindOutGreatestNumber" />
+        <item itemvalue="Application.FindOutFrequencyOfWordFromAString" />
+        <item itemvalue="Application.DesignPatternUsingForLoop" />
+        <item itemvalue="Application.CountWord" />
       </list>
     </recent_temporary>
   </component>

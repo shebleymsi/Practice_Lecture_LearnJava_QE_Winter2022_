@@ -2,15 +2,11 @@ package problemsAndSolutions;
 
 public class DesignPatternUsingForLoop {
 
-
     public static void main(String[] args) {
-
 
         designTriangle(5);
 
-
     }
-
 
     public static void designTriangle(int row) {
         for (int i = 0; i < row; i++) {

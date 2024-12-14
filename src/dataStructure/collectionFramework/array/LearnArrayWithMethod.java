@@ -12,7 +12,6 @@ public class LearnArrayWithMethod {
         // part:1 method call ==========================================================================================
         // getNumbers(); // don't print anything, need sout
         System.out.println(getNumbers().toString()); // directly this way we can not print value
-
         getNumbers().toString();
 
 
@@ -112,9 +111,6 @@ public class LearnArrayWithMethod {
         return number;
     }
     //=================, part:1 done and call method in main method ====================================================
-
-
-
     //=================================================group practice Here =============================================
 
 
@@ -217,7 +213,7 @@ public class LearnArrayWithMethod {
 
     }
 
-    public static void minimumValue() {
+    public static void minimumValue() { // shebley
         int[] numbers = new int[]{130, 103, 14, 56, 700, 66, 77, 1, 88, 999, 11};
 
         int min = numbers[0];

@@ -42,6 +42,7 @@ public class CheckAnagram {
 
     }
 
+    // this is good
     public static boolean isAnagram1(String st, String dt) {
 
         boolean status = true;
